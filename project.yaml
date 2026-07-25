@@ -1,0 +1,73 @@
+# .project metadata for Network Service Mesh
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "network-service-mesh"
+name: "Network Service Mesh"
+description: "The Hybrid/Multi-cloud IP Service Mesh"
+type: "project"
+project_lead: "edwarnicke" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#CHQNNUPN1/details"
+    link: "https://cloud-native.slack.com/messages/CHQNNUPN1/details/"
+    primary: true
+  - name: "#nsm"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2019-04-11T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/792" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/networkservicemesh/api"
+
+website: "https://networkservicemesh.io/"
+
+artwork: "https://landscape.cncf.io/logos/network-service-mesh.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/networkservicemesh/api/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "networkservicemesh/api"
+
+social:
+  twitter: "https://twitter.com/nservicemesh"
+
+security:
+  policy:
+    path: "https://github.com/networkservicemesh/api/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/networkservicemesh/api/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/networkservicemesh/api/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/networkservicemesh/api/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/networkservicemesh/api/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/networkservicemesh/api/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Network"
+
+# CLOMonitor Score: 67/100
+# Documentation: 72 | License: 86 | Best Practices: 45 | Security: 45
