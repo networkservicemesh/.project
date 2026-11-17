@@ -26,7 +26,7 @@ repositories:
 
 website: "https://networkservicemesh.io/"
 
-artwork: "https://landscape.cncf.io/logos/network-service-mesh.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/networkservicemesh"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
